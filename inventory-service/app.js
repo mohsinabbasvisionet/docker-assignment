@@ -14,5 +14,5 @@ app.get('/inventory', (req, res) => {
 
 // Start the server
 app.listen(port, () => {
-    console.log(`billing-service is running on http://localhost:${port}`);
+    console.log(`invertory-service is running on http://localhost:${port}`);
 });

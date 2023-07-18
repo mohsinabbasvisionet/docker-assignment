@@ -14,5 +14,5 @@ app.get('/users', (req, res) => {
 
 // Start the server
 app.listen(port, () => {
-    console.log(`billing-service is running on http://localhost:${port}`);
+    console.log(`users-service is running on http://localhost:${port}`);
 });
