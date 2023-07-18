@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JetClientState">
+    <option name="environmentGroups">
+      <list>
+        <environmentGroupState>
+          <option name="environments">
+            <list>
+              <environmentState>
+                <option name="id" value="dev" />
+                <option name="name" value="Dev" />
+              </environmentState>
+            </list>
+          </option>
+          <option name="id" value="docker_apis" />
+          <option name="name" value="docker-apis" />
+        </environmentGroupState>
+      </list>
+    </option>
+    <option name="folders">
+      <list>
+        <folderState>
+          <option name="id" value="e5f589ec-074f-4e46-9bd2-ae22168864b2" />
+          <option name="name" value="API calls" />
+          <option name="requests">
+            <list>
+              <requestState>
+                <option name="body">
+                  <bodyState>
+                    <option name="raw" value="{&#10;  &quot;name&quot;:  &quot;abc&quot;,&#10;  &quot;password&quot;: &quot;sheraz123&quot;,&#10;  &quot;email&quot;: &quot;sheraz@test.com&quot;&#10;}" />
+                    <option name="type" value="JSON" />
+                  </bodyState>
+                </option>
+                <option name="headers">
+                  <list>
+                    <headerState>
+                      <option name="key" value="Content-Type" />
+                      <option name="value" value="application/json" />
+                    </headerState>
+                  </list>
+                </option>
+                <option name="id" value="4d4a896a-7474-472b-9113-1d998f19097c" />
+                <option name="method" value="POST" />
+                <option name="name" value="billing" />
+                <option name="url" value="http://localhost:5004/billing" />
+              </requestState>
+            </list>
+          </option>
+          <option name="sortWeight" value="1000000" />
+          <option name="syncProperties">
+            <synchronizationPropertiesState>
+              <option name="folderPath" value="F:\Docker-assigment\.jetclient" />
+            </synchronizationPropertiesState>
+          </option>
+        </folderState>
+      </list>
+    </option>
+    <option name="id" value="957c5707-7afc-46b1-92fd-0ee45d9dbe90" />
+    <option name="selectedEnvironmentIds">
+      <set>
+        <option value="dev" />
+      </set>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  inventory-service:
+    build: ./inventory-service  # Replace with the path to your inventory-service Dockerfile
+    ports:
+      - "5001:5001"  # Map host port 5001 to container port 5000
+
+  shipping-service:
+    build: ./shipping-service  # Replace with the path to your shipping-service Dockerfile
+    ports:
+      - "5002:5002"  # Map host port 5002 to container port 5000
+
+  users-service:
+    build: ./users-service  # Replace with the path to your users-service Dockerfile
+    ports:
+      - "5003:5003"  # Map host port 5003 to container port 5000
+
+  billing-service:
+    build: ./billing-service  # Replace with the path to your billing-service Dockerfile
+    ports:
+      - "5004:5004"  # Map host port 5004 to container port 5000
