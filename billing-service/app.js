@@ -12,7 +12,7 @@ app.post('/billing', (req, res) => {
     console.log(req.body);
 
     // Send the req.body object to the shipping-service /billing endpoint
-    fetch('http://localhost:5002/shipping', {
+    fetch('http://shipping-service:5002/shipping', {
         method: 'POST',
         body: JSON.stringify(req.body),
         headers: { 'Content-Type': 'application/json' },
